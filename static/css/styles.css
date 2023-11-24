@@ -1,0 +1,37 @@
+html
+{
+	scroll-behavior:smooth;
+}
+body
+{
+	text-align: center;
+	background: linear-gradient(45deg,orange,white,green);
+	font-family:"comic sans ms",sans-serif ;
+}
+#links>a
+{
+	text-decoration: blink;
+	font-size: 15px;
+}
+h2
+{
+	background: linear-gradient(45deg,blue,deeppink,darkblue);
+	color: white;
+	padding: 7px;
+	border: 8px solid white;
+	width: 400px;
+	margin-left: 550px;
+	border-radius: 100px 0px 100px 0px;
+	box-shadow: 0 0 100px blue;
+
+}
+table
+{
+	width: 100%;
+}
+img
+{
+	border: 3px solid white;
+	border-radius: 10px;
+	padding: 5px;
+}

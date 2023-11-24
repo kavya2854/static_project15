@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Combinators</title>
+	<style>
+		h1~h2
+		{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="Header">
+		<h1>Header one<span>Header span</span>
+		</h1>
+		<h2>Header two</h2>
+		<h3>Header three</h3>
+	</div>
+	<div id="Main-section">
+		<h1>Main-section one</h1>
+		<h2>Main-section two</h2>
+	</div>
+	<div id="Footer">
+		<h1>Footer one<span>Footer span</span>
+		</h1>
+		<h2>Footer two</h2>
+		<h3>Footer three</h3>
+	</div>
+
+
+</body>
+</html>

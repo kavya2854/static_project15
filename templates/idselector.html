@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Tables</title>
+	<table border = '1px' cellspacing='20px' cellpadding="10px">
+		<tr>
+			<th>Sregno</th>
+			<th>Sname</th>
+			<th>Batch Code</th>
+			<th colspan='2'>Courses</th>
+		</tr>
+		<tr>
+			<td>Jsp101</td>
+			<td>Kavya</td>
+			<td rowspan='3'>JMA_JFFWBD_E1</td>
+			<td rowspan='3'>HTML</td>
+			<td>PYTHON</td>
+		</tr>
+		<tr>
+			<td>Jsp102</td>
+			<td>Teja</td>
+			<td>PYTHON</td>
+		</tr>
+		<tr>
+			<td>Jsp103</td>
+			<td>Rupa</td>
+			<td>PYTHON</td>
+		</tr>
+	<style>
+		#abc
+		{
+			color: white;
+		}
+		#mno
+		{
+			color: red;
+		}
+		#xyz
+		{
+			color: green;
+		}
+	</style>
+    </table>
+</head>
+<body style='background-color: cyan;'>
+	<h1>
+	<h1 id='abc'>CSS Selector</h1>
+	<h1 id='mno'>CSS Selector</h1>
+	<h1 id='xyz'>CSS Selector</h1>
+	<marquee direction='right' scrollamount='100px' behavior='alternate' loop='5'>Kavya</marquee>
+	<img src="{% static 'images/ritika.jpg' %}" width="300px" height="200px"/>
+</body>
+</html>
